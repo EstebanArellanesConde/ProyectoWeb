@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 20px;
+}
+
+/* Estilos para el encabezado */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: darkgray;
+    padding: 0 20px;
+}
+
+#contenido {
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+}
+
+#footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+.nav-bar {
+    margin: 0 10px;
+}
+.navbar-dark{
+
+}
+
+.nav-bar {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    background-color: blueviolet;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    text-align: justify;
+}
+
+@media (min-widht) and (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #logo {
+        margin: 10px 0;
+    }
+}

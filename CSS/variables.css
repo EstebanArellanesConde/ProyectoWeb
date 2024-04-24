@@ -1,0 +1,14 @@
+:root {
+    --color-primario: #0da3a3;
+    --color-secundario: darkblue;
+    --fuente-grande: 18px;
+}
+
+h1 {
+    color: var(--color-primario);
+    font-size: var(--fuente-grande);
+}
+
+p {
+    color: var(--color-secundario);
+}

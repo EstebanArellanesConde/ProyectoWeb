@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fuente1';
+    src: url(/CSS/Noto_Sans_TC/static/NotoSansTC-Black.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Fuente1', Courier, monospace;
+    font-size: xx-large;
+}
