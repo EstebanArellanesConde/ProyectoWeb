@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: lightgray;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Estilos para el encabezado */
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: darkgray;
+}
+
+#contenido {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+#footer {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+}
+
+#logo {
+    margin-right: 20px;
+}
+
+#imgLogo {
+    width: 80px;
+    /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    /* Mantener la proporción */
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Menú horizontal */
+}
+
+nav ul li {
+    display: flex;
+    margin: 0px;
+    /* Espacio entre elementos del menú */
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Transición de color suave */
+    padding: 10px 20px 10px 20px;
+    /* Arriba, derecha, abajo, izquierda */
+    background-color: blueviolet;
+}
+
+.navbar-nav{
+    /*flex-direction: row;
+    color: white;
+    background-color: darkblue;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    justify-content: space-between;*/
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Agregado para espacio entre las opciones */
+    color: white;
+    background-color: darkblue;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        /* Cambiar a orientación vertical */
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+        /* Espacio entre elementos del menú */
+    }
+
+    #header {
+        height: auto;
+    }
+}
+
+.RenglonEncabezado {
+    background-color: black;
+    color: aliceblue;
+}
+
+.RenglonImpar {
+    background-color: darkgray;
+    color: darkblue;
+}
+
+.Renglonpar {
+    background-color: yellow;
+    color: red;
+}
+
+table {
+    border: 0px;
+}
+
+.C1 {
+    width: 200px;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    /* Estilos para pantallas entre 400px y 600px de ancho */
+    /* Aquí puedes agregar las reglas CSS que quieras que se apliquen en ese rango de tamaño de pantalla */
+}

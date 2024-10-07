@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 20px;
+}
+
+/* Estilos para el encabezado */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: darkgray;
+    padding: 0 20px;
+}
+
+#contenido {
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+}
+
+#footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+/*nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}*/
+
+
+nav ul li a:hover {
+    background-color: whitesmoke;
+    color: blue;
+    justify-content: space-between; /* Agregado para espacio entre las opciones */
+    
+}   
+
+.navbar-nav{
+    /*flex-direction: row;
+    color: white;
+    background-color: darkblue;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    justify-content: space-between;*/
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Agregado para espacio entre las opciones */
+    color: white;
+    background-color: darkblue;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    text-align: justify;
+    margin: 5px 0;
+}
+
+@media (min-widht) and (max-width: 600px) {
+    #header {
+        flex-direction: row;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction:row;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #logo {
+        margin: 10px 0;
+    }
+}
