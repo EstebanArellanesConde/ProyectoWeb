@@ -1,0 +1,27 @@
+.titulo {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+  }
+  
+  .cards_subtitle {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  
+  .cards_group {
+    margin-top: 0.8rem;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .titulo {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: bold;
+    }
+  
+    .titulo2 {
+      font-size: 1.3rem;
+    }
+  }
